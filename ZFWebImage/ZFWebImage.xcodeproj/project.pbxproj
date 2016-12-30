@@ -13,7 +13,7 @@
 		18D82D061E16E94C003285C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D82D041E16E94C003285C0 /* Main.storyboard */; };
 		18D82D081E16E94C003285C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D82D071E16E94C003285C0 /* Assets.xcassets */; };
 		18D82D0B1E16E94C003285C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D82D091E16E94C003285C0 /* LaunchScreen.storyboard */; };
-		18D82D141E16ECA8003285C0 /* ZFDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D82D131E16ECA8003285C0 /* ZFDownloaderOperation.m */; };
+		18D82D1C1E16FA43003285C0 /* ZFDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D82D1B1E16FA43003285C0 /* ZFDownloaderOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		18D82D071E16E94C003285C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D82D0A1E16E94C003285C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D82D0C1E16E94C003285C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D82D121E16ECA8003285C0 /* ZFDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloaderOperation.h; sourceTree = "<group>"; };
-		18D82D131E16ECA8003285C0 /* ZFDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloaderOperation.m; sourceTree = "<group>"; };
+		18D82D1A1E16FA43003285C0 /* ZFDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloaderOperation.h; sourceTree = "<group>"; };
+		18D82D1B1E16FA43003285C0 /* ZFDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloaderOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,7 @@
 			children = (
 				18D82CFE1E16E94C003285C0 /* AppDelegate.h */,
 				18D82CFF1E16E94C003285C0 /* AppDelegate.m */,
-				18D82D121E16ECA8003285C0 /* ZFDownloaderOperation.h */,
-				18D82D131E16ECA8003285C0 /* ZFDownloaderOperation.m */,
+				18D82D161E16F9E3003285C0 /* WebImage */,
 				18D82D011E16E94C003285C0 /* ViewController.h */,
 				18D82D021E16E94C003285C0 /* ViewController.m */,
 				18D82D041E16E94C003285C0 /* Main.storyboard */,
@@ -82,6 +81,15 @@
 				18D82CFC1E16E94C003285C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D82D161E16F9E3003285C0 /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				18D82D1A1E16FA43003285C0 /* ZFDownloaderOperation.h */,
+				18D82D1B1E16FA43003285C0 /* ZFDownloaderOperation.m */,
+			);
+			path = WebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +166,7 @@
 			files = (
 				18D82D031E16E94C003285C0 /* ViewController.m in Sources */,
 				18D82D001E16E94C003285C0 /* AppDelegate.m in Sources */,
-				18D82D141E16ECA8003285C0 /* ZFDownloaderOperation.m in Sources */,
+				18D82D1C1E16FA43003285C0 /* ZFDownloaderOperation.m in Sources */,
 				18D82CFD1E16E94C003285C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
