@@ -63,10 +63,10 @@
 			children = (
 				18D82CFE1E16E94C003285C0 /* AppDelegate.h */,
 				18D82CFF1E16E94C003285C0 /* AppDelegate.m */,
-				18D82D011E16E94C003285C0 /* ViewController.h */,
-				18D82D021E16E94C003285C0 /* ViewController.m */,
 				18D82D121E16ECA8003285C0 /* ZFDownloaderOperation.h */,
 				18D82D131E16ECA8003285C0 /* ZFDownloaderOperation.m */,
+				18D82D011E16E94C003285C0 /* ViewController.h */,
+				18D82D021E16E94C003285C0 /* ViewController.m */,
 				18D82D041E16E94C003285C0 /* Main.storyboard */,
 				18D82D071E16E94C003285C0 /* Assets.xcassets */,
 				18D82D091E16E94C003285C0 /* LaunchScreen.storyboard */,
